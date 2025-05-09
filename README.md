@@ -51,9 +51,9 @@ Assignment-2/
 
 The analysis is separated into notebooks in the `notebooks/` directory:
 
-* **EDA (`1_data_exploration.ipynb`):** Explores the dataset (Task 1).
+* **Data Exploration (`1_data_exploration.ipynb`):** Explores the dataset (Task 1).
 * **Model Selection (`3_model_selection.ipynb`):** Runs the Repeated Nested Cross-Validation using `src/rnCV.py` to compare models and select the winner (Task 3). *Note: This can take ~25 minutes to run with the simplified grids.* Results are saved to `rnCV_results.csv` and `rnCV_summary_stats_CIs.csv`.
-* **Final Training (`4_final_model_training.ipynb`):** Takes the winner algorithm, performs final hyperparameter tuning using GridSearchCV, trains the final model pipeline on all data and saves it to `models/final_lr_elasticnet_model.pkl` (Task 4).
+* **Final Model Training (`4_final_model_training.ipynb`):** Takes the winner algorithm, performs final hyperparameter tuning using GridSearchCV, trains the final model pipeline on all data and saves it to `models/final_lr_elasticnet_model.pkl` (Task 4).
 
 *(You can run these notebooks sequentially using Jupyter Lab or Jupyter Notebook)*
 
